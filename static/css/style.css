@@ -1,0 +1,22 @@
+.container-1 {
+    border: 1em solid rgb(216, 116, 116);
+    margin: 10px;
+    padding: 10px;
+    ;
+}
+.container-1 h2{
+    text-align: center;
+}
+
+.flex-box-container-1 {
+    display: flex;
+    border: 1em solid rgb(202, 188, 188);
+    padding: 1em;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.flex-box-container-1 div {
+    padding: 1em;
+    align-items: center;
+}
