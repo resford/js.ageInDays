@@ -1,7 +1,7 @@
 //Your Age in Days
 
 function ageInDays() {
-    let birthDate = new Date(prompt("What year were you born? MM-DD-YYY" ));
+    let birthDate = new Date(prompt("What year were you born? MM-DD-YYYY" ));
     let today = new Date();
     let currentDate = new Date(today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate());
     let differenceInTime = currentDate.getTime() - birthDate.getTime();
